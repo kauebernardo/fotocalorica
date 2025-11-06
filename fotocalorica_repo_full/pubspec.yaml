@@ -1,0 +1,36 @@
+name: fotocalorica
+description: FotoCalórica - estime calorias a partir de fotos
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # Camera & image
+  image_picker: ^0.8.7+4
+  flutter_image_compress: ^1.1.0
+
+  # HTTP & JSON
+  dio: ^5.2.1
+
+  # Firebase
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.7.0
+
+  # In-app purchases
+  in_app_purchase: ^4.0.0
+
+  # State management & UI
+  provider: ^6.0.5
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
